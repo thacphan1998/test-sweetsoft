@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles/style.css">
+    <link rel="stylesheet" href="./css/plugins/bootstrap\bootstrap.min.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web">
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-header bg-main">
+            <div class="container fix-container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 contact-left">
+                        <span class="text-contact">Connect With Us:</span>
+                        <ul class="list-contact d-inline-block">
+                            <li class="item-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                        <path
+                                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                    </svg></a></li>
+                            <li class="item-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                        <path
+                                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                    </svg></a></li>
+                            <li class="item-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg></a></li>
+                            <li class="item-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                                        <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                        <path
+                                            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-6 contact-right">
+                        <div class="email my-2 d-inline-block"><a href="">info@bexer.com</a></div>
+                        <div class="phone d-inline-block"><a href="">Call Now: <span>1234565523</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container fix-container res-container-nav">
+                    <a class="navbar-brand" href="#"><svg class="icon-logo" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M509.5 184.6L458.9 32.8C452.4 13.2 434.1 0 413.4 0H272v192h238.7c-.4-2.5-.4-5-1.2-7.4zM240 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-.8 2.4-.8 4.9-1.2 7.4H240V0zM0 224v240c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V224H0z" />
+                        </svg></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu-item res-nav-collapse justify-content-end"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 list-menu-center ">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    About us
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contact
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Page
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shortcode
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="icon-search">
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                                </svg></a>
+                        </div>
+                        <button type="button" class="btn btn-success">GET A QUOTE</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-01">
+            <div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                    data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url('./img/slide-05.jpg')">
+                            <div class="container fix-container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="carousel-caption  d-md-block">
+                                            <h5>We are here to</h5>
+                                            <h1>Planning Business</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="" class="btn btn-outline-dark btn-more">more details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " style="background-image: url('./img/slide-04.jpg')">
+                            <div class="container fix-container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="carousel-caption  d-md-block">
+                                            <h5>We are here to</h5>
+                                            <h1>Planning Business</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="" class="btn btn-outline-dark btn-more">more details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('./img/slide-07.jpg')">
+                            <div class="container fix-container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="carousel-caption  d-md-block">
+                                            <h5>We are here to</h5>
+                                            <h1>Planning Business</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua.</p>
+                                            <a href="" class="btn btn-outline-dark btn-more">more details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon fix-bg-arrow" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon fix-bg-arrow" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section-02">
+            <div class="container fix-container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                        <div class="bg-white banner-item py-4 px-3">
+                            <div class="icon-banner">
+                                <svg class="banner-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path
+                                        d="M464 0H112c-4 0-7.8 2-10 5.4L2 152.6c-2.9 4.4-2.6 10.2.7 14.2l276 340.8c4.8 5.9 13.8 5.9 18.6 0l276-340.8c3.3-4.1 3.6-9.8.7-14.2L474.1 5.4C471.8 2 468.1 0 464 0zm-19.3 48l63.3 96h-68.4l-51.7-96h56.8zm-202.1 0h90.7l51.7 96H191l51.6-96zm-111.3 0h56.8l-51.7 96H68l63.3-96zm-43 144h51.4L208 352 88.3 192zm102.9 0h193.6L288 435.3 191.2 192zM368 352l68.2-160h51.4L368 352z" />
+                                </svg>
+                            </div>
+                            <h3 class="title">Business Solution</h3>
+                            <p>Lorem ipsum dolor sit amet constur adipelit sed.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                        <div class="bg-white banner-item py-4 px-3">
+                            <div class="icon-banner">
+                                <svg class="banner-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z" />
+                                </svg>
+                            </div>
+                            <h3 class="title">Market Research</h3>
+                            <p>Lorem ipsum dolor sit amet constur adipelit sed.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                        <div class="bg-white banner-item py-4 px-3">
+                            <div class="icon-banner">
+                                <svg class="banner-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                                    <path
+                                        d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z" />
+                                </svg>
+                            </div>
+                            <h3 class="title">Business Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet constur adipelit sed.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-4">
+                        <div class="bg-white banner-item py-4 px-3">
+                            <div class="icon-banner">
+                                <svg class="banner-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path
+                                        d="M288 32C128.94 32 0 160.94 0 320c0 52.8 14.25 102.26 39.06 144.8 5.61 9.62 16.3 15.2 27.44 15.2h443c11.14 0 21.83-5.58 27.44-15.2C561.75 422.26 576 372.8 576 320c0-159.06-128.94-288-288-288zm0 64c14.71 0 26.58 10.13 30.32 23.65-1.11 2.26-2.64 4.23-3.45 6.67l-9.22 27.67c-5.13 3.49-10.97 6.01-17.64 6.01-17.67 0-32-14.33-32-32S270.33 96 288 96zM96 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm48-160c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm246.77-72.41l-61.33 184C343.13 347.33 352 364.54 352 384c0 11.72-3.38 22.55-8.88 32H232.88c-5.5-9.45-8.88-20.28-8.88-32 0-33.94 26.5-61.43 59.9-63.59l61.34-184.01c4.17-12.56 17.73-19.45 30.36-15.17 12.57 4.19 19.35 17.79 15.17 30.36zm14.66 57.2l15.52-46.55c3.47-1.29 7.13-2.23 11.05-2.23 17.67 0 32 14.33 32 32s-14.33 32-32 32c-11.38-.01-20.89-6.28-26.57-15.22zM480 384c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z" />
+                                </svg>
+                            </div>
+                            <h3 class="title">Speed Optimization</h3>
+                            <p>Lorem ipsum dolor sit amet constur adipelit sed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-03">
+            <div class="container fix-container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-5">
+                        <div class="item-left">
+                            <img src="img/anh-05.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="item-right mt-3">
+                            <div class="border-title-top"></div>
+                            <p class="title-about">About Us</p>
+                            <h1 class="title-large pb-4">We Are Dynamic Team and Business Agency</h1>
+                            <p class="caption-content mb-5">Excepteur sint occaecat cupidatat non proident sunt iculpa
+                                qui officia deserunt mollit anim est. laborum sed perspiciatis unde omnis natus error
+                                sit voluptatem accusantium.</p>
+                            <button type="button" class="btn btn-success">more service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-04">
+            <div class="container fix-container">
+                <div class="row bg-main padd-content p-5">
+                    <div class="col-lg-3 ">
+                        <div class="d-flex align-items-center res-item res-item">
+                            <div class="icon-sect-04">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                    <path
+                                        d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z" />
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <h2>
+                                    <span>50</span>
+                                    +
+                                </h2>
+                                <span class="text-content">project done</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="d-flex align-items-center res-item">
+                            <div class="icon-sect-04">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M311.7 374.7l-17 17c-4.7 4.7-12.3 4.7-17 0L224 337.9l-53.7 53.7c-4.7 4.7-12.3 4.7-17 0l-17-17c-4.7-4.7-4.7-12.3 0-17l53.7-53.7-53.7-53.7c-4.7-4.7-4.7-12.3 0-17l17-17c4.7-4.7 12.3-4.7 17 0l53.7 53.7 53.7-53.7c4.7-4.7 12.3-4.7 17 0l17 17c4.7 4.7 4.7 12.3 0 17L257.9 304l53.7 53.7c4.8 4.7 4.8 12.3.1 17zM448 112v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z" />
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <h2>
+                                    <span>25</span>
+                                    +
+                                </h2>
+                                <span class="text-content">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="d-flex align-items-center res-item">
+                            <div class="icon-sect-04">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z" />
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <h2>
+                                    <span>250</span>
+                                    +
+                                </h2>
+                                <span class="text-content">Awards Win</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="d-flex align-items-center res-item">
+                            <div class="icon-sect-04">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path
+                                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z" />
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <h2>
+                                    <span>500</span>
+                                    +
+                                </h2>
+                                <span class="text-content">Happy Coustomers</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-05">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="item-right sect-05-item mt-3">
+                            <div class="border-title-top"></div>
+                            <p class="title-about">Why Choose Us</p>
+                            <h1 class="title-large pb-4">Why They Choose Bexar</h1>
+                            <p class="caption-content mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eius tempor incididunt ut labore.</p>
+                            <ul>
+                                <li class="d-flex align-items-center mb-4">
+                                    <div>
+                                        <div class="icon-banner fix-icon-banner">
+                                            <svg class="banner-icon-svg fix-banner-icon-svg"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path
+                                                    d="M440.3 345.2l-33.8-19.5 26-7c8.2-2.2 13.1-10.7 10.9-18.9l-4-14.9c-2.2-8.2-10.7-13.1-18.9-10.9l-70.8 19-63.9-37 63.8-36.9 70.8 19c8.2 2.2 16.7-2.7 18.9-10.9l4-14.9c2.2-8.2-2.7-16.7-10.9-18.9l-26-7 33.8-19.5c7.4-4.3 9.9-13.7 5.7-21.1L430.4 119c-4.3-7.4-13.7-9.9-21.1-5.7l-33.8 19.5 7-26c2.2-8.2-2.7-16.7-10.9-18.9l-14.9-4c-8.2-2.2-16.7 2.7-18.9 10.9l-19 70.8-62.8 36.2v-77.5l53.7-53.7c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0L256 56.4V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v40.4l-19.7-19.7c-6.2-6.2-16.4-6.2-22.6 0L138.3 48c-6.3 6.2-6.3 16.4 0 22.6l53.7 53.7v77.5l-62.8-36.2-19-70.8c-2.2-8.2-10.7-13.1-18.9-10.9l-14.9 4c-8.2 2.2-13.1 10.7-10.9 18.9l7 26-33.8-19.5c-7.4-4.3-16.8-1.7-21.1 5.7L2.1 145.7c-4.3 7.4-1.7 16.8 5.7 21.1l33.8 19.5-26 7c-8.3 2.2-13.2 10.7-11 19l4 14.9c2.2 8.2 10.7 13.1 18.9 10.9l70.8-19 63.8 36.9-63.8 36.9-70.8-19c-8.2-2.2-16.7 2.7-18.9 10.9l-4 14.9c-2.2 8.2 2.7 16.7 10.9 18.9l26 7-33.8 19.6c-7.4 4.3-9.9 13.7-5.7 21.1l15.5 26.8c4.3 7.4 13.7 9.9 21.1 5.7l33.8-19.5-7 26c-2.2 8.2 2.7 16.7 10.9 18.9l14.9 4c8.2 2.2 16.7-2.7 18.9-10.9l19-70.8 62.8-36.2v77.5l-53.7 53.7c-6.3 6.2-6.3 16.4 0 22.6l11.3 11.3c6.2 6.2 16.4 6.2 22.6 0l19.7-19.7V496c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-40.4l19.7 19.7c6.2 6.2 16.4 6.2 22.6 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6L256 387.7v-77.5l62.8 36.2 19 70.8c2.2 8.2 10.7 13.1 18.9 10.9l14.9-4c8.2-2.2 13.1-10.7 10.9-18.9l-7-26 33.8 19.5c7.4 4.3 16.8 1.7 21.1-5.7l15.5-26.8c4.3-7.3 1.8-16.8-5.6-21z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3>Creative Design</h3>
+                                        <p>
+                                            Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center mb-4">
+                                    <div>
+                                        <div class="icon-banner fix-icon-banner">
+                                            <svg class="banner-icon-svg fix-banner-icon-svg"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <path
+                                                    d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3>Pixel Perfect Coding</h3>
+                                        <p>
+                                            Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="img-banner-right shadow-banner">
+                            <img src="img/anh-07.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-main">
+        <div>
+            <div class="container fix-container">
+                <div class="row justify-content-between pb-5 mb-lg-5">
+                    <div class="col-lg-4 pb-sm-5">
+                        <div class="logo-footer">
+                            <a class="navbar-brand" href="#"><svg class="icon-logo" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M509.5 184.6L458.9 32.8C452.4 13.2 434.1 0 413.4 0H272v192h238.7c-.4-2.5-.4-5-1.2-7.4zM240 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-.8 2.4-.8 4.9-1.2 7.4H240V0zM0 224v240c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V224H0z" />
+                                </svg></a>
+                        </div>
+                        <p class="text-left">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
+                            incididunt ut labore
+                            dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut
+                            aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.
+                        </p>
+                        <p class="text-left">Deserunt mollit anim id est laborum. Set ut perspiciatis unde omnis iste
+                            natus error sit voluptatem.</p>
+                        <h3 class="title-us-contact">FOLLOW US ON</h3>
+                        <ul class="list-contact d-inline-block">
+                            <li class="item-contact fix-icon-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                    </svg></a></li>
+                            <li class="item-contact fix-icon-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                                    </svg></a></li>
+                            <li class="item-contact fix-icon-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg></a></li>
+                            <li class="item-contact fix-icon-contact"><a href="" class="text-icon"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                                        <path
+                                            d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-6 pb-lg-5">
+                                <div>
+                                    <h3 class="title-service">Services</h3>
+                                    <ul class="list-service">
+                                        <li class="item-service d-flex align-items-center">
+                                            <svg class="icon-service" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 256 512">
+                                                <path
+                                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                                            </svg>
+                                            <a href="">Company History</a>
+                                        </li>
+                                        <li class="item-service d-flex align-items-center">
+                                            <svg class="icon-service" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 256 512">
+                                                <path
+                                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                                            </svg>
+                                            <a href="">About Us</a>
+                                        </li>
+                                        <li class="item-service d-flex align-items-center">
+                                            <svg class="icon-service" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 256 512">
+                                                <path
+                                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                                            </svg>
+                                            <a href="">Contact Us</a>
+                                        </li>
+                                        <li class="item-service d-flex align-items-center">
+                                            <svg class="icon-service" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 256 512">
+                                                <path
+                                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                                            </svg>
+                                            <a href="">Services</a>
+                                        </li>
+                                        <li class="item-service d-flex align-items-center">
+                                            <svg class="icon-service" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 256 512">
+                                                <path
+                                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                                            </svg>
+                                            <a href="">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <h3 class="title-service">Contact info</h3>
+                                    <ul class="list-service">
+                                        <li class="item-service d-flex align-items-center">
+                                            9567 Turner Trace Apt.466 North Willie, BC C3G8A4
+                                        </li>
+                                        <li class="item-service d-flex align-items-center">
+                                            +21 123 456 5523
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 pt-md-5 mt-lg-5">
+                                <div>
+                                    <h3 class="title-service">Subscribe Newsletter</h3>
+                                    <div class="input-group mb-3 ">
+                                        <input type="text" class="form-control email-subscribe-newsletter" placeholder="Enter your email"
+                                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-secondary btn-subscribe-newsletter" type="button"
+                                            id="button-addon2">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-row">
+            <div class="container fix-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text">
+                            <p><span>Bexar</span>
+                                &copy; 2021 All Right Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="text">
+                            <p>
+                                Terms of Service &nbsp; &nbsp; | &nbsp; &nbsp; Privacy Policy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
